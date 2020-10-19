@@ -2164,7 +2164,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Spawn"
-"_tb_id" "9"
+"_tb_id" "11"
 // brush 0
 {
 ( 234.5 5 232 ) ( 234.5 5 224 ) ( 234.5 109 224 ) 128_brown_2 3 80 0 1 1
@@ -2464,7 +2464,7 @@
 // entity 14
 {
 "classname" "weapon_rocketlauncher"
-"origin" "-33 16 248"
+"origin" "-33 16 252"
 }
 // entity 15
 {
