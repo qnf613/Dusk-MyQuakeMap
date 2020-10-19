@@ -2158,13 +2158,22 @@
 ( 87.125000000045034 -244.87500000000006 409.625 ) ( 87.124999999983629 -244.87500000000006 419 ) ( -120.62499999998936 -244.875 419 ) 128_honey_1 -35.75 67.375 180 1 -1
 ( 87.125000000045034 -244.87500000000006 409.625 ) ( 87.125000000036508 -597.75 409.625 ) ( 87.124999999976353 -597.75 419 ) 128_honey_1 -2.75 67.375 0 1 1
 }
+// brush 236
+{
+( 366 -394 342 ) ( 366 -393 342 ) ( 366 -394 343 ) 128_honey_1 0 0 0 1 1
+( 366 -394 342 ) ( 366 -394 343 ) ( 367 -394 342 ) 128_honey_1 0 0 0 1 1
+( 366 -394 342 ) ( 367 -394 342 ) ( 366 -393 342 ) 128_honey_1 0 0 0 1 1
+( 370 -388 344 ) ( 370 -387 344 ) ( 371 -388 344 ) 128_honey_1 0 0 0 1 1
+( 370 -388 344 ) ( 371 -388 344 ) ( 370 -388 345 ) 128_honey_1 0 0 0 1 1
+( 370 -388 344 ) ( 370 -388 345 ) ( 370 -387 344 ) 128_honey_1 0 0 0 1 1
+}
 }
 // entity 1
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "Spawn"
-"_tb_id" "14"
+"_tb_id" "17"
 // brush 0
 {
 ( 234.5 5 232 ) ( 234.5 5 224 ) ( 234.5 109 224 ) 128_brown_2 3 80 0 1 1
@@ -2423,103 +2432,104 @@
 // entity 7
 {
 "classname" "info_player_deathmatch"
-"origin" "384 -380 368"
-"angle" "135"
+"origin" "-16 544 160"
+"angle" "270"
 }
 // entity 8
 {
 "classname" "info_player_deathmatch"
-"origin" "-16 544 160"
-"angle" "270"
-}
-// entity 9
-{
-"classname" "info_player_deathmatch"
-"origin" "0 -536 160"
+"origin" "-8 -526 160"
 "angle" "90"
 }
-// entity 10
+// entity 9
 {
 "classname" "info_player_deathmatch"
 "origin" "550 16 160"
 "angle" "180"
 }
-// entity 11
+// entity 10
 {
 "classname" "item_health"
 "origin" "-48 -16 448"
 "spawnflags" "2"
 }
-// entity 12
-{
-"classname" "item_armor2"
-"origin" "-536 0 136"
-}
-// entity 13
+// entity 11
 {
 "classname" "item_health"
 "origin" "-48 -16 36"
 "spawnflags" "2"
 }
-// entity 14
+// entity 12
 {
 "classname" "weapon_rocketlauncher"
 "origin" "-33 16 252"
 }
-// entity 15
-{
-"classname" "item_armor2"
-"origin" "548 16 136"
-"angle" "180"
-}
-// entity 16
-{
-"classname" "item_armor2"
-"origin" "-16 548 136"
-"angle" "270"
-}
-// entity 17
-{
-"classname" "item_armor2"
-"origin" "0 -536 136"
-"angle" "90"
-}
-// entity 18
-{
-"classname" "item_armor2"
-"origin" "365 395 344"
-"angle" "225"
-}
-// entity 19
-{
-"classname" "item_armor2"
-"origin" "-390 -383 344"
-"angle" "45"
-}
-// entity 20
-{
-"classname" "item_armor2"
-"origin" "387 -380 344"
-"angle" "135"
-}
-// entity 21
-{
-"classname" "item_armor2"
-"origin" "-390 375 344"
-"angle" "315"
-}
-// entity 22
+// entity 13
 {
 "classname" "item_rockets"
 "origin" "-44 8 240"
 }
-// entity 23
+// entity 14
 {
 "classname" "item_shells"
-"origin" "-44 -12 72"
+"origin" "-44 -12 68"
 }
-// entity 24
+// entity 15
 {
 "classname" "item_shells"
 "origin" "-44 -12 480"
+}
+// entity 16
+{
+"classname" "item_armor1"
+"origin" "550 18 136"
+"angle" "165"
+}
+// entity 17
+{
+"classname" "item_armor1"
+"origin" "-528 0 136"
+"angle" "0"
+}
+// entity 18
+{
+"classname" "item_armor1"
+"origin" "-16 546 136"
+"angle" "270"
+}
+// entity 19
+{
+"classname" "item_armor1"
+"origin" "-8 -524 136"
+"angle" "90"
+}
+// entity 20
+{
+"classname" "item_armor1"
+"origin" "-388 375 344"
+"angle" "315"
+}
+// entity 21
+{
+"classname" "item_armor1"
+"origin" "-384 -377 344"
+"angle" "45"
+}
+// entity 22
+{
+"classname" "item_armor1"
+"origin" "365 397 344"
+"angle" "210"
+}
+// entity 23
+{
+"classname" "info_player_deathmatch"
+"origin" "372 -374 368"
+"angle" "135"
+}
+// entity 24
+{
+"classname" "item_armor1"
+"origin" "373 -373 344"
+"angle" "135"
 }
