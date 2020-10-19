@@ -5,7 +5,7 @@ Output file: dusk.bsp
 ---- LoadMapFile ----
          1596 faces
           261 brushes
-           14 entities
+           22 entities
             6 unique texnames
          1030 texinfo
 
@@ -17,46 +17,48 @@ Processing hull 0...
           549 planes
 ---- CSGFaces ----
          1596 brushfaces
-         3783 csgfaces
-         3398 mergedfaces
+         3738 csgfaces
+         3382 mergedfaces
 ---- SolidBSP ----
-         7602 split nodes
-         3289 solid leafs
-         4237 empty leafs
-           77 water leafs
+         7664 split nodes
+         3356 solid leafs
+         4226 empty leafs
+           83 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        14657 leaffaces
-        13127 nodefaces
+        14747 leaffaces
+        13427 nodefaces
 ---- Portalize ----
-         4314 vis leafs
-         4314 vis clusters
-        12761 vis portals
+         4309 vis leafs
+         4309 vis clusters
+        12845 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (-400 384 368), no filling performed.
+*** WARNING 10: Reached occupant at (-48 -16 448), no filling performed.
 Leak file written to dusk.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
+*** WARNING 10: Reached occupant at (-388 -384 368), no filling performed.
 Processing hull 2...
+*** WARNING 10: Reached occupant at (-388 -384 368), no filling performed.
 ---- WriteBSPFile ----
 Wrote dusk.bsp
-         1241 planes            24820
-        15365 vertexes         184380
-         7602 nodes            182448
-          923 texinfo           36920
-        13127 faces            262540
-         4005 clipnodes         32040
-         4315 leafs            120820
-        14657 marksurfaces      29314
-        52417 surfedges        209668
-        32484 edges            129936
+         1639 planes            32780
+        15495 vertexes         185940
+         7664 nodes            183936
+          933 texinfo           37320
+        13427 faces            268540
+        10516 clipnodes         84128
+         4310 leafs            120680
+        14747 marksurfaces      29494
+        53626 surfedges        214504
+        32617 edges            130468
             6 textures          83212
               lightdata             0
               visdata               0
-              entdata            1036
+              entdata            1573
 
-0.713 seconds elapsed
-Peak memory usage: 52787234 (50.3M)
+0.645 seconds elapsed
+Peak memory usage: 55245946 (52.7M)
