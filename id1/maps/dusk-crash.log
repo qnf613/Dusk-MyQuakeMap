@@ -1,0 +1,17 @@
+Renderer info: GeForce GTX 1660/PCIe/SSE2 version 4.6.0 NVIDIA 456.71 from NVIDIA Corporation
+Depth buffer bits: 24
+Multisampling enabled
+Adding file system path C:\Users\Eric\Documents\GitHub\Dusk-MyQuakeMap\trenchbroom\defaults\assets
+Adding file system path C:\Users\Eric\Documents\GitHub\Dusk-MyQuakeMap\trenchbroom\defaults\assets
+Adding file system path C:\QuakeDev\id1
+Adding file system package PAK0.PAK
+Adding file system package PAK1.PAK
+Loading document from C:\Users\Eric\Documents\GitHub\Dusk-MyQuakeMap\id1\maps\dusk.map
+Loaded entity definition file Quake.fgd
+Loading palette file gfx\palette.lmp
+Loaded texture collection 'C:\Users\Eric\Documents\GitHub\Dusk-MyQuakeMap\wads\START.WAD'
+Loaded texture collection 'C:\Users\Eric\Documents\GitHub\Dusk-MyQuakeMap\wads\prototype_1_2.wad'
+Created autosave backup at C:\Users\Eric\Documents\GitHub\Dusk-MyQuakeMap\id1\maps\autosave\dusk.42.map
+Snapped vertices of 8 brushes
+Snapped vertices of 8 brushes
+Created autosave backup at C:\Users\Eric\Documents\GitHub\Dusk-MyQuakeMap\id1\maps\autosave\dusk.43.map
