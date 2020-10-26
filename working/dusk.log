@@ -3,62 +3,74 @@ Input file: dusk.map
 Output file: dusk.bsp
 
 ---- LoadMapFile ----
-         1722 faces
-          282 brushes
-           33 entities
-            8 unique texnames
-         1125 texinfo
+         2209 faces
+          361 brushes
+           42 entities
+           20 unique texnames
+         1145 texinfo
 
-Opened WAD: C:/Users/Eric/Documents/GitHub/Dusk-MyQuakeMap/wads/START.WAD
-Opened WAD: C:/Users/Eric/Documents/GitHub/Dusk-MyQuakeMap/wads/prototype_1_2.wad
+Opened WAD: C:/Users/Eric/Documents/GitHub/Dusk-MyQuakeMap/wads/hipnotic.wad
+Opened WAD: C:/Users/Eric/Documents/GitHub/Dusk-MyQuakeMap/wads/rogue.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          278 brushes
-          619 planes
+*** WARNING 08: Point (272.625 -125.960 201.000) off plane by 0.0001
+*** WARNING 08: Point (272.625 -125.960 240.201) off plane by 0.0001
+          357 brushes
+          869 planes
 ---- CSGFaces ----
-         1698 brushfaces
-         3937 csgfaces
-         3576 mergedfaces
+         2185 brushfaces
+         4697 csgfaces
+         4309 mergedfaces
 ---- SolidBSP ----
-         7869 split nodes
-         3373 solid leafs
-         4398 empty leafs
-           99 water leafs
+         9205 split nodes
+         3755 solid leafs
+         5351 empty leafs
+          100 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        15128 leaffaces
-        13808 nodefaces
+        16444 leaffaces
+        15235 nodefaces
 ---- Portalize ----
-         4497 vis leafs
-         4497 vis clusters
-        13615 vis portals
+         5451 vis leafs
+         5451 vis clusters
+        17512 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (-48 -16 448), no filling performed.
+*** WARNING 10: Reached occupant at (-402 -420 344), no filling performed.
 Leak file written to dusk.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 10: Reached occupant at (-388 -384 368), no filling performed.
+*** WARNING 08: Point (272.625 -125.960 201.000) off plane by 0.0001
+*** WARNING 08: Point (272.625 -125.960 240.201) off plane by 0.0001
+*** WARNING 08: Point (288.625 -141.960 169.000) off plane by 0.0001
+*** WARNING 08: Point (288.625 -141.960 264.201) off plane by 0.0001
 Processing hull 2...
-*** WARNING 10: Reached occupant at (-388 -384 368), no filling performed.
+*** WARNING 08: Point (272.625 -125.960 201.000) off plane by 0.0001
+*** WARNING 08: Point (272.625 -125.960 240.201) off plane by 0.0001
+*** WARNING 08: Point (304.625 -157.960 137.000) off plane by 0.0001
+*** WARNING 08: Point (304.625 -157.960 264.201) off plane by 0.0001
+*** WARNING 16: Texture 128_honey_1 not found
+*** WARNING 16: Texture 128_grey_1 not found
+*** WARNING 16: Texture __TB_empty not found
+*** WARNING 16: Texture *tele01 not found
 ---- WriteBSPFile ----
 Wrote dusk.bsp
-         1845 planes            36900
-        15905 vertexes         190860
-         7893 nodes            189432
-         1016 texinfo           40640
-        13832 faces            276640
-        11237 clipnodes         89896
-         4522 leafs            126616
-        15152 marksurfaces      30304
-        55253 surfedges        221012
-        33634 edges            134536
-            8 textures          94628
+         1890 planes            37800
+        17868 vertexes         214416
+         9229 nodes            221496
+         1048 texinfo           41920
+        15259 faces            305180
+         4758 clipnodes         38064
+         5476 leafs            153328
+        16468 marksurfaces      32936
+        60989 surfedges        243956
+        37604 edges            150416
+           20 textures         114964
               lightdata             0
               visdata               0
-              entdata            2478
+              entdata            2445
 
-0.715 seconds elapsed
-Peak memory usage: 57430432 (54.8M)
+0.912 seconds elapsed
+Peak memory usage: 65041740 (62.0M)
