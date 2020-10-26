@@ -25,7 +25,7 @@ Lighting Completed.
 lightdatasize: 138156
 0 switchable light styles (32 max)
 Writing dusk.bsp as BSP version 29
-0.691 seconds elapsed
+0.680 seconds elapsed
 
 stats:
 2.151651 lights tested, 0.968874 hits per sample point
