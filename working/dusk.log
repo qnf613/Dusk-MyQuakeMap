@@ -3,11 +3,11 @@ Input file: dusk.map
 Output file: dusk.bsp
 
 ---- LoadMapFile ----
-         2257 faces
-          369 brushes
-           90 entities
-           21 unique texnames
-         1148 texinfo
+         2938 faces
+          478 brushes
+          107 entities
+           19 unique texnames
+         1623 texinfo
 
 Opened WAD: C:/Users/Eric/Documents/GitHub/Dusk-MyQuakeMap/wads/hipnotic.wad
 Opened WAD: C:/Users/Eric/Documents/GitHub/Dusk-MyQuakeMap/wads/rogue.wad
@@ -15,27 +15,28 @@ Processing hull 0...
 ---- Brush_LoadEntity ----
 *** WARNING 08: Point (272.625 -125.960 201.000) off plane by 0.0001
 *** WARNING 08: Point (272.625 -125.960 240.201) off plane by 0.0001
-          365 brushes
-          906 planes
+          474 brushes
+         1400 planes
 ---- CSGFaces ----
-         2233 brushfaces
-         4933 csgfaces
-         4609 mergedfaces
+         2914 brushfaces
+         6247 csgfaces
+         5839 mergedfaces
 ---- SolidBSP ----
-        10444 split nodes
-         4203 solid leafs
-         5925 empty leafs
-          317 water leafs
+        14710 split nodes
+         5834 solid leafs
+         8349 empty leafs
+          528 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        18835 leaffaces
-        17300 nodefaces
+        25486 leaffaces
+        22989 nodefaces
 ---- Portalize ----
-         6242 vis leafs
-         6242 vis clusters
-        19316 vis portals
+*** WARNING 12: New portal was clipped away in CutNodePortals_r near (451.380 -322.266 410.000)
+         8877 vis leafs
+         8877 vis clusters
+        28231 vis portals
 ---- FillOutside ----
 *** WARNING 10: Reached occupant at (-433 -417 91), no filling performed.
 Leak file written to dusk.pts
@@ -51,26 +52,23 @@ Processing hull 2...
 *** WARNING 08: Point (272.625 -125.960 240.201) off plane by 0.0001
 *** WARNING 08: Point (304.625 -157.960 137.000) off plane by 0.0001
 *** WARNING 08: Point (304.625 -157.960 264.201) off plane by 0.0001
-*** WARNING 16: Texture 128_honey_1 not found
 *** WARNING 16: Texture 128_grey_1 not found
-*** WARNING 16: Texture __TB_empty not found
-*** WARNING 16: Texture *tele01 not found
 ---- WriteBSPFile ----
 Wrote dusk.bsp
-         1937 planes            38740
-        19612 vertexes         235344
-        10468 nodes            251232
-         1060 texinfo           42400
-        17324 faces            346480
-         4664 clipnodes         37312
-         6267 leafs            175476
-        18859 marksurfaces      37718
-        69251 surfedges        277004
-        42681 edges            170724
-           21 textures         158528
+         2879 planes            57580
+        26317 vertexes         315804
+        14734 nodes            353616
+         1493 texinfo           59720
+        23013 faces            460260
+         6490 clipnodes         51920
+         8902 leafs            249256
+        25510 marksurfaces      51020
+        92062 surfedges        368248
+        56752 edges            227008
+           19 textures         164000
               lightdata             0
               visdata               0
-              entdata            5921
+              entdata            6990
 
-0.932 seconds elapsed
-Peak memory usage: 68579438 (65.4M)
+1.256 seconds elapsed
+Peak memory usage: 89713220 (85.6M)
