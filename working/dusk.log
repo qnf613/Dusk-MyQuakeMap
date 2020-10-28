@@ -68,7 +68,7 @@ Wrote dusk.bsp
            19 textures         164000
               lightdata             0
               visdata               0
-              entdata            6990
+              entdata            6989
 
-1.256 seconds elapsed
+1.423 seconds elapsed
 Peak memory usage: 89713220 (85.6M)
